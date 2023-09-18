@@ -15,7 +15,7 @@
 
 
 /* tab 메뉴 */
-.tabmenu {padding: 0 20px;margin-top: 10px;}  /* 탭 컨텐츠 좌우 여백 */
+.tabmenu {padding: 0 20px 100px;margin-top: 10px;}  /* 탭 컨텐츠 좌우 여백 */
 .tabmenu .tab {display: flex;justify-content: space-around;align-items: center;height: 40px;cursor: pointer;border-bottom: 1px solid #DDDDDD;}
 .tabmenu .tab li {flex: 1;text-align: center;height: 100%;line-height: 40px;font-size: 15px;color: #888;letter-spacing: -0.05em;}
 .tabmenu .tab li.on {border-bottom: 2px solid #000;color: #000;font-weight: bold;}
@@ -224,7 +224,7 @@
 .subscsection .top>.price>li:nth-child(2) {font-size: 16px;color: #000;}
 .subscsection .top>.price>li:nth-child(2)>span {font-size: 26px;font-weight: bold;letter-spacing: -0.03em;}
 
-.subscsection .bottom {margin-top: 30px;}
+.subscsection .bottom {margin-top: 30px;padding-bottom: 100px;}
 .subscsection .bottom>h2 {font-size: 18px;font-weight: bold;color: #000;}
 .subscsection .bottom>input {box-sizing: border-box;padding-left: 10px;height: 48px;width: 100%;border-radius: 8px;margin-top: 10px;border: 1px solid rgba(0, 0, 0,0.1);}
 .subscsection .bottom>input:focus::placeholder {opacity: 0;}
