@@ -5,17 +5,17 @@ $(document).ready(function() {
 
    /*---------- main : tab script ----------*/
   // 상단 탭메뉴 클릭
-  $(".tabsection .tab li").click(function() {
-    let result = $(this).attr("data-alt");
-    $(".tabsection .tabContent>div").removeClass("active");
-    $("#" + result).addClass("active");
-    window.scrollTo({ top: 0});  
-  });
+  // $(".tabsection .tab li").click(function() {
+  //   let result = $(this).attr("data-alt");
+  //   $(".tabsection .tabContent>div").removeClass("active");
+  //   $("#" + result).addClass("active");
+  //   window.scrollTo({ top: 0});  
+  // });
 
-  $(".tabsection .tab li").click(function() {
-    $(this).addClass("on");
-    $(this).siblings("li").removeClass("on");
-  });
+  // $(".tabsection .tab li").click(function() {
+  //   $(this).addClass("on");
+  //   $(this).siblings("li").removeClass("on");
+  // });
   /*---------- /// tab script /// ----------*/
 
 

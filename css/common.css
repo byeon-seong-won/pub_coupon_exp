@@ -160,7 +160,9 @@ header nav a {font-family: 'Noto sans KR', sans-serif;font-weight: bold;color: #
 
 
 /*---------- footer style ----------*/
-footer {position : relative;transform : translateY(-50%);}
+/* footer {position : relative;transform : translateY(-50%);} */
+footer {margin-top: 100px;}
+/* footer.footer02 {margin-top: 300px;} */
 footer>ul {background-color: #555;color: #DDDDDD;display: flex;padding: 0 20px;height: 50px;}
 footer>ul>li {font-size: 13px;font-weight: bold;line-height: 50px;cursor: pointer;}
 footer>ul>li>span.sm_tt {font-size: 10px; color:#999; padding:10px; line-height: 5px;display: inline-block;transform: translateY(-2px);}
